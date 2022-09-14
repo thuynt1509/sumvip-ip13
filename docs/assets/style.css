@@ -299,23 +299,23 @@ table {
   content: "";
   display: block;
   background: url("../images/bvd-tach_0003_Layer-59.png") 0/100% no-repeat;
-  width: 15px;
-  height: 17px;
+  width: 3.75vw;
+  height: 4.1666666667vw;
   position: absolute;
-  left: 15px;
+  left: 4.8611111111vw;
   top: 50%;
-  margin-top: -8px;
+  margin-top: -2.0833333333vw;
 }
 .wrapper-sum .box-login .pass-word:before {
   content: "";
   display: block;
   background: url("../images/bvd-tach_0002_Layer-60-copy.png") 0/100% no-repeat;
-  width: 15px;
-  height: 17px;
+  width: 4.1666666667vw;
+  height: 4.0277777778vw;
   position: absolute;
-  left: 15px;
+  left: 4.8611111111vw;
   top: 50%;
-  margin-top: -8px;
+  margin-top: -2.0833333333vw;
 }
 .wrapper-sum .box-login .pass-word .icon-pass {
   display: block;
@@ -684,16 +684,18 @@ table {
   }
   .wrapper-sum .box-login .tab-content {
     padding: 30px 13px 30px;
-    margin-bottom: 150px;
+    margin-bottom: 160px;
   }
   .wrapper-sum .box-login .user-name::before {
     width: 27px;
     height: 30px;
+    left: 15px;
     margin-top: -15px;
   }
   .wrapper-sum .box-login .pass-word::before {
     width: 30px;
     height: 29px;
+    left: 15px;
     margin-top: -14px;
   }
   .wrapper-sum .btn-register {
@@ -936,7 +938,7 @@ table {
   .box-captcha {
     width: 587px;
     height: 81px;
-    padding: 0 15px;
+    padding: 0 5px;
     display: flex;
   }
   .box-captcha-2 {
@@ -951,7 +953,7 @@ table {
   .box-captcha input {
     height: 70px;
     border-radius: 23px;
-    padding: 0 20px 0 80px;
+    padding: 0 20px 0 50px;
   }
   #refresh {
     width: 44px;

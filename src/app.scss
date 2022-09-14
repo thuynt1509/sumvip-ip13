@@ -307,12 +307,12 @@ table {
                 content: '';
                 display: block;
                 background: url("../images/bvd-tach_0003_Layer-59.png") 0/100% no-repeat;
-                width: 15px;
-                height: 17px;
+                width: vwm(27px);
+                height: vwm(30px);
                 position: absolute;
-                left: 15px;
+                left: vwm(35px);
                 top: 50%;
-                margin-top: -8px;
+                margin-top: vwm(-15px);
             }
         }
         .pass-word {
@@ -320,12 +320,12 @@ table {
                 content: '';
                 display: block;
                 background: url("../images/bvd-tach_0002_Layer-60-copy.png") 0/100% no-repeat;
-                width: 15px;
-                height: 17px;
+                width: vwm(30px);
+                height: vwm(29px);
                 position: absolute;
-                left: 15px;
+                left: vwm(35px);
                 top: 50%;
-                margin-top: -8px;
+                margin-top: vwm(-15px);
             }
             .icon-pass {
                 display: block;
@@ -703,12 +703,13 @@ table {
             }
             .tab-content {
                 padding: 30px 13px 30px;
-                margin-bottom: 150px;
+                margin-bottom: 160px;
             }
             .user-name {
                 &::before {
                     width: 27px;
                     height: 30px;
+                    left: 15px;
                     margin-top: -15px;
                 }
             }
@@ -716,6 +717,7 @@ table {
                 &::before {
                     width: 30px;
                     height: 29px;
+                    left: 15px;
                     margin-top: -14px;
                 }
             }
@@ -948,7 +950,7 @@ table {
     .box-captcha {
         width: 587px;
         height: 81px;
-        padding: 0 15px;
+        padding: 0 5px;
         display: flex;
     }
     .box-captcha-2 {
@@ -963,7 +965,7 @@ table {
     .box-captcha input {
         height: 70px;
         border-radius: 23px;
-        padding: 0 20px 0 80px;
+        padding: 0 20px 0 50px;
     }
     #refresh {
         width: 44px;
