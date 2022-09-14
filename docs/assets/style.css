@@ -163,7 +163,7 @@ table {
 .wrapper-sum .logo {
   display: block;
   position: absolute;
-  top: 13.8888888889vw;
+  top: 11.1111111111vw;
   width: 34.3055555556vw;
   height: 28.75vw;
   left: 50%;
@@ -232,7 +232,7 @@ table {
   background: url("../images/slogan.png") 0/100% no-repeat;
   width: 89.0277777778vw;
   height: 10.1388888889vw;
-  margin: 13.8888888889vw auto 2.0833333333vw;
+  margin: 11.1111111111vw auto 2.0833333333vw;
 }
 .wrapper-sum .box-login {
   background: url("../images/bg-login.png") 0/100% no-repeat;
@@ -402,14 +402,14 @@ table {
   background: url("../images/btn-dns.png") 0/100% no-repeat;
   width: 57.7777777778vw;
   height: 16.5277777778vw;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .wrapper-sum .text-bottom {
   display: block;
   background: url("../images/text-bottom.png") 0/100% no-repeat;
   width: 256px;
   height: 24px;
-  margin: 20px auto;
+  margin: 10px auto 0;
   text-indent: -999em;
 }
 .wrapper-sum .box-bxh {
