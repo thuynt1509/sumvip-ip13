@@ -83,7 +83,6 @@ table {
   background: url("../images/bg-taigame.jpg") top/100% no-repeat #160e0b;
 }
 .wrapper-sum .box-top {
-  background-color: rgba(0, 0, 0, 0.5607843137);
   width: 100%;
   padding: 6px;
 }
@@ -91,10 +90,10 @@ table {
   display: block;
   position: absolute;
   top: 2.7777777778vw;
-  width: 35.1388888889vw;
-  height: 24.5833333333vw;
+  width: 24.8611111111vw;
+  height: 20.8333333333vw;
   left: 50%;
-  margin-left: -17.5vw;
+  margin-left: -12.5vw;
   z-index: 2;
 }
 .wrapper-sum .logo img {
@@ -125,8 +124,8 @@ table {
 }
 .wrapper-sum .icon-support {
   display: block;
-  width: 13.0555555556vw;
-  height: 12.9166666667vw;
+  width: 9.8611111111vw;
+  height: 11.5277777778vw;
   margin: 1.3888888889vw 2.7777777778vw;
   position: relative;
   z-index: 3;
@@ -138,7 +137,7 @@ table {
   display: block;
   background: url("../images/btn-search-fb.png") 0/100% no-repeat;
   width: 35.6944444444vw;
-  height: 7.0833333333vw;
+  height: 7.5vw;
 }
 .wrapper-sum .box-hotline {
   display: flex;
@@ -160,9 +159,9 @@ table {
 .wrapper-sum .slogan {
   display: block;
   background: url("../images/slogan.png") 0/100% no-repeat;
-  width: 86.8055555556vw;
-  height: 10.2777777778vw;
-  margin: 18.0555555556vw auto 8.3333333333vw;
+  width: 77.5vw;
+  height: 14.5833333333vw;
+  margin: 11.1111111111vw auto 6.9444444444vw;
   position: relative;
   z-index: 2;
 }
@@ -185,10 +184,10 @@ table {
   right: 0;
 }
 .wrapper-sum .box-login {
-  padding: 0 1.3888888889vw 6.9444444444vw;
+  padding: 0 1.3888888889vw;
   background: url("../images/bg-login.png") 0/100% no-repeat;
   background-size: 100% 100%;
-  margin: 0 2.7777777778vw 5.5555555556vw;
+  margin: 0 2.7777777778vw 13.8888888889vw;
   position: relative;
   background-position: top center;
 }
@@ -206,10 +205,10 @@ table {
   font-size: 0;
   padding: 0;
   border: none;
-  width: 60.8333333333vw;
-  height: 10.1388888889vw;
+  width: 51.3888888889vw;
+  height: 10.8333333333vw;
   font-weight: bold;
-  margin: -9.0277777778vw auto 0;
+  margin: -4.8611111111vw auto 0;
 }
 .wrapper-sum .box-login .nav-tabs a#login-tab {
   background: url("../images/btn-dn-active.pn") 0/100% no-repeat;
@@ -244,23 +243,25 @@ table {
 }
 .wrapper-sum .box-login .form-control {
   height: 46px;
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  border: 1px solid #f3c367;
+  background: url("../images/bg-input2.png") no-repeat;
+  background-size: 100% 100%;
   outline: 0 !important;
   margin: 0 auto;
   font-size: 14px;
-  color: #767879 !important;
+  color: #fff !important;
   border-radius: 10px;
   padding: 0 6.25vw 0 6.9444444444vw;
+  border: none;
+  text-transform: uppercase;
 }
 .wrapper-sum .box-login .form-control::-moz-placeholder {
-  color: #767879;
+  color: #fff;
 }
 .wrapper-sum .box-login .form-control:-ms-input-placeholder {
-  color: #767879;
+  color: #fff;
 }
 .wrapper-sum .box-login .form-control::placeholder {
-  color: #767879;
+  color: #fff;
 }
 .wrapper-sum .box-login .user-name:before {
   content: "";
@@ -299,18 +300,18 @@ table {
   outline: none;
 }
 .wrapper-sum .box-login .tab-content {
-  padding: 2.7777777778vw 4.1666666667vw;
+  padding: 4.1666666667vw 4.1666666667vw;
   position: relative;
   margin-bottom: 1.3888888889vw;
 }
 .wrapper-sum .btn-register {
   display: block;
   background: url("../images/bvd-tach_0000_Group-12.png") 0/100% no-repeat;
-  width: 53.6111111111vw;
-  height: 15vw;
+  width: 55.8333333333vw;
+  height: 12.5vw;
   position: absolute;
   left: 50%;
-  margin-left: -26.8055555556vw;
+  margin-left: -27.9166666667vw;
   bottom: -13.8888888889vw;
   cursor: pointer;
 }
@@ -320,8 +321,8 @@ table {
 .wrapper-sum .title-1 {
   display: block;
   background: url("../images/bvd-tach_0014_Group-20.png") 0/100% no-repeat;
-  width: 46.9444444444vw;
-  height: 4.0277777778vw;
+  width: 67.2222222222vw;
+  height: 3.6111111111vw;
   margin: 0 auto;
 }
 .wrapper-sum .title-2 {
@@ -334,15 +335,15 @@ table {
 .wrapper-sum .title-3 {
   display: block;
   background: url("../images/title-3.png") 0/100% no-repeat;
-  width: 65vw;
-  height: 4.7222222222vw;
+  width: 82.3611111111vw;
+  height: 4.1666666667vw;
   margin: 0 auto;
 }
 .wrapper-sum .title-4 {
   display: block;
   background: url("../images/title-4.png") 0/100% no-repeat;
-  width: 253px;
-  height: 22px;
+  width: 252px;
+  height: 20px;
   margin: 0 auto;
   font-size: 0;
 }
@@ -350,8 +351,8 @@ table {
   display: block;
   margin: 1.3888888889vw auto;
   background: url("../images/bvd-tach_0017_Group-23.png") 0/100% no-repeat;
-  width: 75.8333333333vw;
-  height: 16.1111111111vw;
+  width: 67.6388888889vw;
+  height: 17.2222222222vw;
 }
 .wrapper-sum .btn-play.btn-ios {
   background: url("../images/btn-ios.png") 0/100% no-repeat;
@@ -363,8 +364,8 @@ table {
   display: block;
   margin: 1.3888888889vw auto;
   background: url("../images/bvd-tach_0019_Group-1.png") 0/100% no-repeat;
-  width: 65.8333333333vw;
-  height: 13.0555555556vw;
+  width: 72.0833333333vw;
+  height: 13.4722222222vw;
 }
 .wrapper-sum .btn-download.btn-ios {
   background: url("../images/btn-download-ios.png") 0/100% no-repeat;
@@ -375,9 +376,9 @@ table {
 .wrapper-sum .btn-dns {
   display: block;
   background: url("../images/btn-dns.png") 0/100% no-repeat;
-  width: 40.2777777778vw;
-  height: 11.8055555556vw;
-  margin: 0 auto;
+  width: 46.3888888889vw;
+  height: 12.7777777778vw;
+  margin: 5px auto;
 }
 .wrapper-sum .box-bxh {
   display: none;
@@ -578,15 +579,15 @@ table {
   }
 
   .wrapper-sum {
-    background: url("../images/bg.jpg") 50% -130px no-repeat #000000;
+    background: url("../images/bg.jpg") 50% -120px no-repeat #000000;
     background-size: 1920px auto;
     width: 100%;
   }
   .wrapper-sum .logo {
     top: 50px;
-    width: 253px;
-    height: 177px;
-    margin-left: -126px;
+    width: 179px;
+    height: 150px;
+    margin-left: -90px;
   }
   .wrapper-sum .icon-phone {
     width: 50px;
@@ -599,13 +600,13 @@ table {
     margin-left: -21px;
   }
   .wrapper-sum .icon-support {
-    width: 94px;
-    height: 93px;
+    width: 71px;
+    height: 83px;
     margin: 20px;
   }
   .wrapper-sum .btn-search-fb {
     width: 257px;
-    height: 51px;
+    height: 54px;
   }
   .wrapper-sum .box-hotline {
     display: flex;
@@ -620,9 +621,9 @@ table {
     margin-left: -30px;
   }
   .wrapper-sum .slogan {
-    width: 625px;
-    height: 74px;
-    margin: 130px auto 80px;
+    width: 558px;
+    height: 105px;
+    margin: 100px auto 80px;
   }
   .wrapper-sum .nv-1 {
     width: 314px;
@@ -637,7 +638,7 @@ table {
   .wrapper-sum .box-login {
     padding: 0 10px 50px;
     height: 442px;
-    margin: 0 20px 50px;
+    margin: 0 20px 120px;
   }
   .wrapper-sum .box-login .nav-tabs {
     padding: 0;
@@ -646,77 +647,78 @@ table {
   .wrapper-sum .box-login .nav-tabs a {
     font-size: 0;
     margin-right: 1%;
-    width: 438px;
-    height: 73px;
+    width: 370px;
+    height: 78px;
     font-weight: bold;
-    margin: -65px auto 0;
+    margin: -35px auto 0;
     border: none;
   }
   .wrapper-sum .box-login .nav-tabs a:last-child {
-    display: flex;
+    display: none;
   }
   .wrapper-sum .box-login .nav-tabs a.active {
-    width: 374px;
+    width: 370px;
     font-size: 50px;
   }
   .wrapper-sum .box-login .form-control {
     font-size: 16px;
     height: 70px;
     border-radius: 20px;
-    padding: 0 45px;
-    border: 3px solid #f3c367;
+    padding: 0 45px 0 65px;
   }
   .wrapper-sum .box-login .tab-content {
     padding: 40px 40px;
     margin-bottom: 10px;
   }
   .wrapper-sum .box-login .user-name::before {
-    width: 32px;
-    height: 37px;
+    width: 30px;
+    height: 35px;
+    left: 20px;
     margin-top: -20px;
   }
   .wrapper-sum .box-login .pass-word::before {
-    width: 29px;
-    height: 37px;
+    width: 27px;
+    height: 35px;
+    left: 20px;
     margin-top: -20px;
   }
   .wrapper-sum .box-login .pass-word .icon-pass {
-    width: 44px;
-    height: 29px;
+    width: 42px;
+    height: 27px;
     right: 10px;
     margin-top: -15px;
   }
   .wrapper-sum .btn-register {
-    width: 386px;
-    height: 108px;
-    margin-left: -193px;
-    bottom: -80px;
+    width: 402px;
+    height: 90px;
+    margin-left: -201px;
+    bottom: -115px;
   }
   .wrapper-sum .title-1 {
-    width: 331px;
-    height: 28px;
+    width: 484px;
+    height: 26px;
   }
   .wrapper-sum .title-2 {
     width: 191px;
     height: 32px;
   }
   .wrapper-sum .title-3 {
-    width: 468px;
-    height: 33px;
+    width: 593px;
+    height: 30px;
   }
   .wrapper-sum .btn-play {
     margin: 20px auto;
-    width: 525px;
-    height: 102px;
+    width: 487px;
+    height: 124px;
   }
   .wrapper-sum .btn-download {
     margin: 10px auto;
-    width: 473px;
-    height: 121px;
+    width: 519px;
+    height: 97px;
   }
   .wrapper-sum .btn-dns {
-    width: 370px;
-    height: 98px;
+    width: 334px;
+    height: 92px;
   }
   .wrapper-sum .box-bxh {
     display: block;
@@ -865,9 +867,8 @@ table {
   justify-content: space-between;
   margin-bottom: 0 !important;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  border: 1px solid #f3c367 !important;
-  border-radius: 10px;
+  background: url("../images/bg-input2.png") no-repeat;
+  background-size: 100% 100%;
 }
 
 .box-captcha-2 {
@@ -893,36 +894,37 @@ table {
 }
 
 .box-captcha input::-moz-placeholder {
-  color: #c6c8ca;
+  color: #fff;
 }
 
 .box-captcha input:-ms-input-placeholder {
-  color: #c6c8ca;
+  color: #fff;
 }
 
 .box-captcha input::placeholder {
-  color: #c6c8ca;
+  color: #fff;
 }
 
 .box-captcha input {
   background-color: transparent;
   width: 100%;
   height: 46px;
-  color: #767879;
+  color: #fff;
   padding: 0 6.25vw;
   margin-left: 5px;
   margin-right: 15px;
   border: none;
+  text-transform: uppercase;
   flex: 1;
 }
 .box-captcha input::-moz-placeholder {
-  color: #767879;
+  color: #fff;
 }
 .box-captcha input:-ms-input-placeholder {
-  color: #767879;
+  color: #fff;
 }
 .box-captcha input::placeholder {
-  color: #767879;
+  color: #fff;
 }
 
 #refresh {
@@ -952,6 +954,7 @@ table {
 .img-w-captcha {
   width: 30%;
   margin-right: 6px;
+  align-items: center;
 }
 
 @media only screen and (min-width: 720px) {
@@ -966,13 +969,13 @@ table {
     width: 37px;
     height: 23px;
     margin-top: -12px;
-    left: 10px;
+    left: 20px;
   }
 
   .box-captcha input {
     height: 70px;
     border-radius: 20px;
-    padding: 0 45px;
+    padding: 0 45px 0 65px;
   }
 
   #refresh {
@@ -1015,14 +1018,14 @@ table {
 .btn-group-vua {
   display: block;
   background: url("../images/group-vua.png") 0/100% no-repeat;
-  width: 22.6388888889vw;
-  height: 6.9444444444vw;
+  width: 24.1666666667vw;
+  height: 7.0833333333vw;
 }
 
 @media only screen and (min-width: 720px) {
   .btn-group-vua {
-    width: 163px;
-    height: 50px;
+    width: 174px;
+    height: 51px;
   }
 
   .wrapper-sum .slogan1 {

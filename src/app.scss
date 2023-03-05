@@ -79,7 +79,6 @@ table {
     background: url("../images/bg-taigame.jpg") top/100% no-repeat #160e0b;
   }
   .box-top{
-    background-color: #0000008f;
     width: 100%;
     padding: 6px;
   }
@@ -87,10 +86,10 @@ table {
     display: block;
     position: absolute;
     top: vwm(20px);
-    width: vwm(253px);
-    height: vwm(177px);
+    width: vwm(179px);
+    height: vwm(150px);
     left: 50%;
-    margin-left: vwm(-126px);
+    margin-left: vwm(-90px);
     z-index: 2;
     img{
       width: 100%;
@@ -119,8 +118,8 @@ table {
   }
   .icon-support{
     display: block;
-    width: vwm(94px);
-    height: vwm(93px);
+    width: vwm(71px);
+    height: vwm(83px);
     margin: vwm(10px) vwm(20px);
     position: relative;
     z-index: 3;
@@ -132,7 +131,7 @@ table {
     display: block;
     background: url("../images/btn-search-fb.png") 0/100% no-repeat;
     width: vwm(257px);
-    height: vwm(51px);
+    height: vwm(54px);
   }
   .box-hotline{
     display: flex;
@@ -154,9 +153,9 @@ table {
   .slogan{
     display: block;
     background: url("../images/slogan.png") 0/100% no-repeat;
-    width: vwm(625px);
-    height: vwm(74px);
-    margin: vwm(130px) auto vwm(60px);
+    width: vwm(558px);
+    height: vwm(105px);
+    margin: vwm(80px) auto vwm(50px);
     position: relative;
     z-index: 2;
   }
@@ -179,10 +178,10 @@ table {
     right: 0;
   }
   .box-login{
-    padding: 0 vwm(10px) vwm(50px);
+    padding: 0 vwm(10px);
     background: url("../images/bg-login.png") 0/100% no-repeat;
     background-size: 100% 100%;
-    margin: 0 vwm(20px) vwm(40px);
+    margin: 0 vwm(20px) vwm(100px);
     position: relative;
     background-position: top center;
     .nav-tabs{
@@ -198,10 +197,10 @@ table {
         font-size: 0;
         padding: 0;
         border: none;
-        width: vwm(438px);
-        height: vwm(73px);
+        width: vwm(370px);
+        height: vwm(78px);
         font-weight: bold;
-        margin: vwm(-65px) auto 0;
+        margin: vwm(-35px) auto 0;
         &#login-tab{
           background: url("../images/btn-dn-active.pn") 0/100% no-repeat;
           &.active{
@@ -238,16 +237,18 @@ table {
     }
     .form-control {
       height: 46px;
-      background-color: #00000099!important;
-      border: 1px solid #f3c367;
+      background: url("../images/bg-input2.png")  no-repeat;
+      background-size: 100% 100%;
       outline: 0!important;
       margin: 0 auto;
       font-size: 14px;
-      color: #767879!important;
+      color: #fff!important;
       border-radius: 10px;
       padding: 0 vwm(45px) 0 vwm(50px);
+      border: none;
+      text-transform: uppercase;
       &::placeholder{
-        color: #767879;
+        color: #fff;
       }
     }
     .user-name{
@@ -291,7 +292,7 @@ table {
       }
     }
     .tab-content{
-      padding:vwm(20px) vwm(30px);
+      padding:vwm(30px) vwm(30px);
       position: relative;
       margin-bottom: vwm(10px);
     }
@@ -299,11 +300,11 @@ table {
   .btn-register{
     display: block;
     background: url("../images/bvd-tach_0000_Group-12.png") 0/100% no-repeat;
-    width: vwm(386px);
-    height: vwm(108px);
+    width: vwm(402px);
+    height: vwm(90px);
     position: absolute;
     left: 50%;
-    margin-left: vwm(-193px);
+    margin-left: vwm(-201px);
     bottom: vwm(-100px);
     cursor: pointer;
     &.btn-login{
@@ -313,8 +314,8 @@ table {
   .title-1{
     display: block;
     background: url("../images/bvd-tach_0014_Group-20.png") 0/100% no-repeat;
-    width: vwm(338px);
-    height: vwm(29px);
+    width: vwm(484px);
+    height: vwm(26px);
     margin: 0 auto;
   }
   .title-2{
@@ -327,15 +328,15 @@ table {
   .title-3{
     display: block;
     background: url("../images/title-3.png") 0/100% no-repeat;
-    width: vwm(468px);
-    height: vwm(34px);
+    width: vwm(593px);
+    height: vwm(30px);
     margin: 0 auto;
   }
   .title-4{
     display: block;
     background: url("../images/title-4.png") 0/100% no-repeat;
-    width: 253px;
-    height: 22px;
+    width: 252px;
+    height: 20px;
     margin: 0 auto;
     font-size: 0;
   }
@@ -343,8 +344,8 @@ table {
     display: block;
     margin: vwm(10px) auto;
     background: url("../images/bvd-tach_0017_Group-23.png") 0/100% no-repeat;
-    width: vwm(546px);
-    height: vwm(116px);
+    width: vwm(487px);
+    height: vwm(124px);
     &.btn-ios{
       background: url("../images/btn-ios.png") 0/100% no-repeat;
     }
@@ -356,8 +357,8 @@ table {
     display: block;
     margin: vwm(10px) auto ;
     background: url("../images/bvd-tach_0019_Group-1.png") 0/100% no-repeat;
-    width: vwm(474px);
-    height: vwm(94px);
+    width: vwm(519px);
+    height: vwm(97px);
     &.btn-ios{
       background: url("../images/btn-download-ios.png") 0/100% no-repeat;
     }
@@ -368,9 +369,9 @@ table {
   .btn-dns{
     display: block;
     background: url("../images/btn-dns.png") 0/100% no-repeat;
-    width: vwm(290px);
-    height: vwm(85px);
-    margin: 0 auto;
+    width: vwm(334px);
+    height: vwm(92px);
+    margin: 5px auto;
   }
   .box-bxh{
     display: none;
@@ -590,15 +591,15 @@ table {
     font-size: 14px;
   }
   .wrapper-sum{
-    background: url("../images/bg.jpg") 50% -130px no-repeat #000000;
+    background: url("../images/bg.jpg") 50% -120px no-repeat #000000;
     background-size: 1920px auto;
     width: 100%;
    
     .logo{
       top: 50px;
-      width: 253px;
-      height: 177px;
-      margin-left: -126px;
+      width: 179px;
+      height: 150px;
+      margin-left: -90px;
     }
     .icon-phone{
       width: 50px;
@@ -611,13 +612,13 @@ table {
       }
     }
     .icon-support{
-      width: 94px;
-      height: 93px;
+      width: 71px;
+      height: 83px;
       margin: 20px;
     }
     .btn-search-fb{
       width: 257px;
-      height: 51px;
+      height: 54px;
     }
     .box-hotline{
       display: flex;
@@ -632,9 +633,9 @@ table {
       }
     }
     .slogan{
-      width: 625px;
-      height: 74px;
-      margin: 130px auto 80px;
+      width: 558px;
+      height: 105px;
+      margin: 100px auto 80px;
     }
     .nv-1{
       width: 314px;
@@ -649,7 +650,7 @@ table {
     .box-login{
       padding: 0 10px 50px;
       height: 442px;
-      margin: 0 20px 50px;
+      margin: 0 20px 120px;
       .nav-tabs{
         padding: 0;
         justify-content: center;
@@ -657,16 +658,16 @@ table {
           font-size: 0;
           margin-right: 1%;
           font-weight: bold;
-          width: 438px;
-          height: 73px;
+          width: 370px;
+          height: 78px;
           font-weight: bold;
-          margin: -65px auto 0;
+          margin: -35px auto 0;
           border: none;
           &:last-child{
-            display: flex;
+            display: none;
           }
           &.active{
-            width: 374px;
+            width: 370px;
             font-size: 50px;
           }
         }
@@ -676,8 +677,7 @@ table {
         font-size: 16px;
         height: 70px;
         border-radius: 20px;
-        padding: 0 45px;
-        border: 3px solid #f3c367;
+        padding: 0 45px 0 65px;
       }
       .tab-content{
         padding:40px 40px;
@@ -685,20 +685,22 @@ table {
       }
       .user-name{
         &::before{
-          width: 32px;
-          height: 37px;
+          width: 30px;
+          height: 35px;
+          left: 20px;
           margin-top: -20px;
         }
       }
       .pass-word{
         &::before{
-          width: 29px;
-          height: 37px;
+          width: 27px;
+          height: 35px;
+          left: 20px;
           margin-top: -20px;
         }
         .icon-pass{
-          width: 44px;
-          height: 29px;
+          width: 42px;
+          height: 27px;
           right: 10px;
           margin-top: -15px;
         }
@@ -706,36 +708,36 @@ table {
       
     }
     .btn-register{
-      width: 386px;
-      height: 108px;
-      margin-left: -193px;
-      bottom: -80px;
+      width: 402px;
+      height: 90px;
+      margin-left: -201px;
+      bottom: -115px;
     }
     .title-1{
-      width: 331px;
-      height: 28px;
+      width: 484px;
+      height: 26px;
     }
     .title-2{
       width: 191px;
       height: 32px;
     }
     .title-3{
-      width: 468px;
-      height: 33px;
+      width: 593px;
+      height: 30px;
     }
     .btn-play{
       margin: 20px auto;
-      width: 525px;
-      height: 102px;
+      width: 487px;
+      height: 124px;
     }
     .btn-download{
       margin: 10px auto;
-      width: 473px;
-      height: 121px;
+      width: 519px;
+      height: 97px;
     }
     .btn-dns{
-      width: 370px;
-      height: 98px;
+      width: 334px;
+      height: 92px;
     }
     .box-bxh{
       display: block;
@@ -885,9 +887,8 @@ table {
   justify-content: space-between;
   margin-bottom: 0!important;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  border: 1px solid #f3c367 !important;
-  border-radius: 10px;
+  background: url("../images/bg-input2.png")  no-repeat;
+      background-size: 100% 100%;
   
 }
 .box-captcha-2{
@@ -911,21 +912,22 @@ table {
   outline: none;
 }
 .box-captcha input::placeholder{
-  color: #c6c8ca;
+  color: #fff;
 }
 .box-captcha input{
   background-color: transparent;
   width: 100%;
   margin-right: 15px;
   height: 46px;
-  color: #767879;
+  color: #fff;
   padding: 0 vwm(45px);
   margin-left: 5px;
   margin-right: 15px;
   border: none;
+  text-transform: uppercase;
   flex: 1;
   &::placeholder{
-    color: #767879;
+    color: #fff;
   }
 }
 #refresh{
@@ -952,6 +954,7 @@ table {
 .img-w-captcha{
   width: 30%;
   margin-right: 6px;
+  align-items: center;
 }
 @media only screen and (min-width: 720px){
   .box-captcha{
@@ -963,13 +966,13 @@ table {
       width: 37px;
       height: 23px;
       margin-top: -12px;
-      left: 10px;
+      left: 20px;
     }
   }
   .box-captcha input{
     height: 70px;
     border-radius: 20px;
-    padding: 0 45px;
+    padding: 0 45px 0 65px;
     
   }
   #refresh{
@@ -1012,13 +1015,13 @@ table {
 .btn-group-vua{
   display: block;
   background: url("../images/group-vua.png") 0/100% no-repeat;
-  width: vwm(163px);
-  height: vwm(50px);
+  width: vwm(174px);
+  height: vwm(51px);
 }
 @media only screen and (min-width: 720px){
   .btn-group-vua{
-    width: 163px;
-    height: 50px;
+    width: 174px;
+    height: 51px;
   }
   .wrapper-sum .slogan1 {
     width: 328px;
