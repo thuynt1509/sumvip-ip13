@@ -89,7 +89,7 @@ table {
 .wrapper-sum .logo {
   display: block;
   position: absolute;
-  top: 2.7777777778vw;
+  top: 1.3888888889vw;
   width: 24.8611111111vw;
   height: 20.8333333333vw;
   left: 50%;
@@ -161,7 +161,7 @@ table {
   background: url("../images/slogan.png") 0/100% no-repeat;
   width: 77.5vw;
   height: 14.5833333333vw;
-  margin: 11.1111111111vw auto 6.9444444444vw;
+  margin: 8.3333333333vw auto 6.9444444444vw;
   position: relative;
   z-index: 2;
 }
@@ -351,8 +351,8 @@ table {
   display: block;
   margin: 1.3888888889vw auto;
   background: url("../images/bvd-tach_0017_Group-23.png") 0/100% no-repeat;
-  width: 67.6388888889vw;
-  height: 17.2222222222vw;
+  width: 62.5vw;
+  height: 15.9722222222vw;
 }
 .wrapper-sum .btn-play.btn-ios {
   background: url("../images/btn-ios.png") 0/100% no-repeat;
