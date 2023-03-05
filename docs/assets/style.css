@@ -239,7 +239,11 @@ table {
 }
 .wrapper-sum .box-login .form-group {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+.wrapper-sum .box-login .form-group:first-child .form-control {
+  background: url("../images/bg-input.png") no-repeat;
+  background-size: 100% 100%;
 }
 .wrapper-sum .box-login .form-control {
   height: 46px;
@@ -300,7 +304,7 @@ table {
   outline: none;
 }
 .wrapper-sum .box-login .tab-content {
-  padding: 4.1666666667vw 4.1666666667vw;
+  padding: 2.7777777778vw 4.1666666667vw 3.4722222222vw;
   position: relative;
   margin-bottom: 1.3888888889vw;
 }
