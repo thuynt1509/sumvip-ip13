@@ -205,10 +205,10 @@ table {
   font-size: 0;
   padding: 0;
   border: none;
-  width: 51.3888888889vw;
-  height: 10.8333333333vw;
+  width: 47.2222222222vw;
+  height: 10vw;
   font-weight: bold;
-  margin: -5.5555555556vw auto 0;
+  margin: -4.1666666667vw auto 0;
 }
 .wrapper-sum .box-login .nav-tabs a#login-tab {
   background: url("../images/btn-dn-active.pn") 0/100% no-repeat;
@@ -235,7 +235,7 @@ table {
   display: none;
 }
 .wrapper-sum .box-login .nav-tabs a.active {
-  width: 60.8333333333vw;
+  width: 47.2222222222vw;
 }
 .wrapper-sum .box-login .form-group {
   position: relative;
