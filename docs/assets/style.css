@@ -70,7 +70,7 @@ table {
 }
 
 .wrapper-sum {
-  background: url("../images/bg.jpg") top/100% no-repeat #160e0b;
+  background: url("../images/bg.jpg") top/100% no-repeat #0f254e;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -83,18 +83,19 @@ table {
   background: url("../images/bg-taigame.jpg") top/100% no-repeat #160e0b;
 }
 .wrapper-sum .box-top {
+  /* background: url("../images/bg-top.png") top/100% no-repeat #160e0b; */
   width: 100%;
-  padding: 6px;
+  padding: 1vw;
 }
 .wrapper-sum .logo {
   display: block;
-  position: absolute;
-  top: 1.3888888889vw;
-  width: 20.8333333333vw;
-  height: 17.5vw;
-  left: 50%;
-  margin-left: -10.4166666667vw;
-  z-index: 2;
+    position: absolute;
+    top: -4vw;
+    width: 39vw;
+    height: 37vw;
+    left: 50%;
+    margin-left: -19.5vw;
+    z-index: 2;
 }
 .wrapper-sum .logo img {
   width: 100%;
@@ -124,8 +125,8 @@ table {
 }
 .wrapper-sum .icon-support {
   display: block;
-  width: 9.8611111111vw;
-  height: 11.5277777778vw;
+  width: 13.0555555556vw;
+  height: 12.9166666667vw;
   margin: 1.3888888889vw 2.7777777778vw;
   position: relative;
   z-index: 3;
@@ -137,7 +138,7 @@ table {
   display: block;
   background: url("../images/btn-search-fb.png") 0/100% no-repeat;
   width: 35.6944444444vw;
-  height: 7.5vw;
+  height: 7.0833333333vw;
 }
 .wrapper-sum .box-hotline {
   display: flex;
@@ -159,9 +160,9 @@ table {
 .wrapper-sum .slogan {
   display: block;
   background: url("../images/slogan.png") 0/100% no-repeat;
-  width: 69.4444444444vw;
-  height: 13.0555555556vw;
-  margin: 6.25vw auto 6.9444444444vw;
+  width: 86.8055555556vw;
+  height: 10.2777777778vw;
+  margin: 18.0555555556vw auto 8.3333333333vw;
   position: relative;
   z-index: 2;
 }
@@ -184,10 +185,10 @@ table {
   right: 0;
 }
 .wrapper-sum .box-login {
-  padding: 0 1.3888888889vw;
+  padding: 0 1.3888888889vw 6.9444444444vw;
   background: url("../images/bg-login.png") 0/100% no-repeat;
   background-size: 100% 100%;
-  margin: 0 2.7777777778vw 12.5vw;
+  margin: 16vw 2.7777777778vw 5.5555555556vw;
   position: relative;
   background-position: top center;
 }
@@ -205,10 +206,10 @@ table {
   font-size: 0;
   padding: 0;
   border: none;
-  width: 47.2222222222vw;
-  height: 10vw;
+  width: 60.8333333333vw;
+  height: 16.1388888889vw;
   font-weight: bold;
-  margin: -4.1666666667vw auto 0;
+  margin: -6.0277777778vw auto 0;
 }
 .wrapper-sum .box-login .nav-tabs a#login-tab {
   background: url("../images/btn-dn-active.pn") 0/100% no-repeat;
@@ -235,28 +236,23 @@ table {
   display: none;
 }
 .wrapper-sum .box-login .nav-tabs a.active {
-  width: 47.2222222222vw;
+  width: 50.8333333333vw;
 }
 .wrapper-sum .box-login .form-group {
   position: relative;
-  margin-bottom: 5px;
-}
-.wrapper-sum .box-login .form-group:first-child .form-control {
-  background: url("../images/bg-input.png") no-repeat;
-  background-size: 100% 100%;
+  margin-bottom: 10px;
 }
 .wrapper-sum .box-login .form-control {
   height: 46px;
-  background: url("../images/bg-input2.png") no-repeat;
+  background: url("../images/bg-input.png")no-repeat;
   background-size: 100% 100%;
+  border: none;
   outline: 0 !important;
   margin: 0 auto;
   font-size: 14px;
   color: #fff !important;
   border-radius: 10px;
-  padding: 0 6.25vw 0 6.9444444444vw;
-  border: none;
-  text-transform: uppercase;
+  padding: 0 6.25vw 0 8.9444444444vw;
 }
 .wrapper-sum .box-login .form-control::-moz-placeholder {
   color: #fff;
@@ -272,22 +268,22 @@ table {
   display: block;
   background: url("../images/bvd-tach_0003_Layer-59.png") 0/100% no-repeat;
   width: 15px;
-  height: 17px;
+  height: 18px;
   position: absolute;
-  left: 10px;
+  left: 15px;
   top: 50%;
-  margin-top: -8px;
+  margin-top: -9px;
 }
 .wrapper-sum .box-login .pass-word:before {
   content: "";
   display: block;
   background: url("../images/bvd-tach_0002_Layer-60-copy.png") 0/100% no-repeat;
   width: 15px;
-  height: 17px;
+  height: 20px;
   position: absolute;
-  left: 10px;
+  left: 15px;
   top: 50%;
-  margin-top: -8px;
+  margin-top: -10px;
 }
 .wrapper-sum .box-login .pass-word .icon-pass {
   display: block;
@@ -295,7 +291,7 @@ table {
   width: 6.1111111111vw;
   height: 4.0277777778vw;
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: 50%;
   margin-top: -2.0833333333vw;
   border: none;
@@ -304,19 +300,19 @@ table {
   outline: none;
 }
 .wrapper-sum .box-login .tab-content {
-  padding: 2.7777777778vw 4.1666666667vw 3.4722222222vw;
+  padding: 2.7777777778vw 4.1666666667vw;
   position: relative;
   margin-bottom: 1.3888888889vw;
 }
 .wrapper-sum .btn-register {
   display: block;
   background: url("../images/bvd-tach_0000_Group-12.png") 0/100% no-repeat;
-  width: 55.8333333333vw;
-  height: 12.5vw;
+  width: 53.6111111111vw;
+  height: 15vw;
   position: absolute;
   left: 50%;
-  margin-left: -27.9166666667vw;
-  bottom: -12.5vw;
+  margin-left: -26.8055555556vw;
+  bottom: -13.8888888889vw;
   cursor: pointer;
 }
 .wrapper-sum .btn-register.btn-login {
@@ -325,8 +321,8 @@ table {
 .wrapper-sum .title-1 {
   display: block;
   background: url("../images/bvd-tach_0014_Group-20.png") 0/100% no-repeat;
-  width: 67.2222222222vw;
-  height: 3.6111111111vw;
+  width: 46.9444444444vw;
+  height: 4.0277777778vw;
   margin: 0 auto;
 }
 .wrapper-sum .title-2 {
@@ -339,24 +335,24 @@ table {
 .wrapper-sum .title-3 {
   display: block;
   background: url("../images/title-3.png") 0/100% no-repeat;
-  width: 82.3611111111vw;
-  height: 4.1666666667vw;
+  width: 58vw;
+  height: 4.7222222222vw;
   margin: 0 auto;
 }
 .wrapper-sum .title-4 {
   display: block;
   background: url("../images/title-4.png") 0/100% no-repeat;
-  width: 252px;
-  height: 20px;
+  width: 200px;
+  height: 17px;
   margin: 0 auto;
   font-size: 0;
 }
 .wrapper-sum .btn-play {
   display: block;
-  margin: 1.3888888889vw auto 0.6944444444vw;
+  margin: 1.3888888889vw auto;
   background: url("../images/bvd-tach_0017_Group-23.png") 0/100% no-repeat;
-  width: 59.7222222222vw;
-  height: 15.1388888889vw;
+  width: 75.8333333333vw;
+  height: 16.1111111111vw;
 }
 .wrapper-sum .btn-play.btn-ios {
   background: url("../images/btn-ios.png") 0/100% no-repeat;
@@ -368,8 +364,8 @@ table {
   display: block;
   margin: 1.3888888889vw auto;
   background: url("../images/bvd-tach_0019_Group-1.png") 0/100% no-repeat;
-  width: 61.1111111111vw;
-  height: 11.3888888889vw;
+  width: 65.8333333333vw;
+  height: 13.0555555556vw;
 }
 .wrapper-sum .btn-download.btn-ios {
   background: url("../images/btn-download-ios.png") 0/100% no-repeat;
@@ -380,9 +376,9 @@ table {
 .wrapper-sum .btn-dns {
   display: block;
   background: url("../images/btn-dns.png") 0/100% no-repeat;
-  width: 46.3888888889vw;
-  height: 12.7777777778vw;
-  margin: 5px auto;
+  width: 50.2777777778vw;
+  height: 11.8055555556vw;
+  margin: 0 auto;
 }
 .wrapper-sum .box-bxh {
   display: none;
@@ -583,15 +579,18 @@ table {
   }
 
   .wrapper-sum {
-    background: url("../images/bg.jpg") 50% -120px no-repeat #000000;
+    background: url("../images/bg.jpg") 50% -100px no-repeat #000000;
     background-size: 1920px auto;
     width: 100%;
   }
+  .wrapper-sum .box-top{
+    padding: 10px
+  }
   .wrapper-sum .logo {
-    top: 50px;
-    width: 179px;
-    height: 150px;
-    margin-left: -90px;
+    top: -50px;
+    width: 253px;
+    height: 241px;
+    margin-left: -126px;
   }
   .wrapper-sum .icon-phone {
     width: 50px;
@@ -604,13 +603,13 @@ table {
     margin-left: -21px;
   }
   .wrapper-sum .icon-support {
-    width: 71px;
-    height: 83px;
+    width: 94px;
+    height: 93px;
     margin: 20px;
   }
   .wrapper-sum .btn-search-fb {
     width: 257px;
-    height: 54px;
+    height: 51px;
   }
   .wrapper-sum .box-hotline {
     display: flex;
@@ -625,9 +624,9 @@ table {
     margin-left: -30px;
   }
   .wrapper-sum .slogan {
-    width: 558px;
-    height: 105px;
-    margin: 100px auto 80px;
+    width: 625px;
+    height: 74px;
+    margin: 130px auto 80px;
   }
   .wrapper-sum .nv-1 {
     width: 314px;
@@ -641,8 +640,8 @@ table {
   }
   .wrapper-sum .box-login {
     padding: 0 10px 50px;
-    height: 442px;
-    margin: 0 20px 120px;
+    height: 465px;
+    margin: 35px 20px 70px;
   }
   .wrapper-sum .box-login .nav-tabs {
     padding: 0;
@@ -651,78 +650,78 @@ table {
   .wrapper-sum .box-login .nav-tabs a {
     font-size: 0;
     margin-right: 1%;
-    width: 340px;
-    height: 72px;
+    width: 438px;
+    height: 73px;
     font-weight: bold;
-    margin: -35px auto 0;
+    margin: -25px auto 0;
     border: none;
   }
   .wrapper-sum .box-login .nav-tabs a:last-child {
     display: none;
   }
   .wrapper-sum .box-login .nav-tabs a.active {
-    width: 370px;
+    width: 374px;
     font-size: 50px;
   }
   .wrapper-sum .box-login .form-control {
     font-size: 16px;
     height: 70px;
     border-radius: 20px;
-    padding: 0 45px 0 65px;
+    padding: 0 65px;
   }
   .wrapper-sum .box-login .tab-content {
-    padding: 40px 40px;
+    padding: 40px;
     margin-bottom: 10px;
   }
   .wrapper-sum .box-login .user-name::before {
-    width: 30px;
-    height: 35px;
-    left: 20px;
+    width: 32px;
+    height: 39px;
     margin-top: -20px;
+    left: 25px;
   }
   .wrapper-sum .box-login .pass-word::before {
-    width: 27px;
-    height: 35px;
-    left: 20px;
+    width: 29px;
+    height: 39px;
     margin-top: -20px;
+    left: 25px;
   }
   .wrapper-sum .box-login .pass-word .icon-pass {
-    width: 42px;
-    height: 27px;
-    right: 10px;
+    width: 44px;
+    height: 29px;
+    right: 25px;
     margin-top: -15px;
   }
   .wrapper-sum .btn-register {
-    width: 402px;
-    height: 90px;
-    margin-left: -201px;
-    bottom: -115px;
+    width: 386px;
+    height: 108px;
+    margin-left: -193px;
+    bottom: -80px;
   }
   .wrapper-sum .title-1 {
-    width: 484px;
-    height: 26px;
+    width: 285px;
+    height: 28px;
   }
   .wrapper-sum .title-2 {
     width: 191px;
     height: 32px;
   }
   .wrapper-sum .title-3 {
-    width: 593px;
-    height: 30px;
+    width: 360px;
+    height: 33px;
   }
   .wrapper-sum .btn-play {
-    margin: 20px auto;
-    width: 487px;
-    height: 124px;
+    margin: 10px auto;
+    width: 497px;
+    height: 144px;
   }
   .wrapper-sum .btn-download {
     margin: 10px auto;
-    width: 519px;
-    height: 97px;
+    width: 473px;
+    height: 96px;
   }
   .wrapper-sum .btn-dns {
-    width: 334px;
-    height: 92px;
+    width: 370px;
+    height: 98px;
   }
   .wrapper-sum .box-bxh {
     display: block;
@@ -871,8 +870,9 @@ table {
   justify-content: space-between;
   margin-bottom: 0 !important;
   position: relative;
-  background: url("../images/bg-input2.png") no-repeat;
+  background: url("../images/bg-input.png")no-repeat;
   background-size: 100% 100%;
+  border: none;
 }
 
 .box-captcha-2 {
@@ -890,7 +890,7 @@ table {
   position: absolute;
   top: 50%;
   margin-top: -1.6666666667vw;
-  left: 2.0833333333vw;
+  left: 15px;
 }
 
 .box-captcha input:focus {
@@ -914,11 +914,10 @@ table {
   width: 100%;
   height: 46px;
   color: #fff;
-  padding: 0 6.25vw;
+  padding: 0 8.25vw;
   margin-left: 5px;
   margin-right: 15px;
   border: none;
-  text-transform: uppercase;
   flex: 1;
 }
 .box-captcha input::-moz-placeholder {
@@ -957,8 +956,7 @@ table {
 
 .img-w-captcha {
   width: 30%;
-  margin-right: 6px;
-  align-items: center;
+  margin-right: 3vw;
 }
 
 @media only screen and (min-width: 720px) {
@@ -973,18 +971,21 @@ table {
     width: 37px;
     height: 23px;
     margin-top: -12px;
-    left: 20px;
+    left: 25px;
   }
 
   .box-captcha input {
     height: 70px;
     border-radius: 20px;
-    padding: 0 45px 0 65px;
+    padding: 0 25px 0 65px;
   }
 
   #refresh {
     width: 44px;
     height: 50px;
+  }
+  .img-w-captcha{
+    margin-right: 0;
   }
 }
 .wrapper-sum .slogan1 {
@@ -1022,14 +1023,14 @@ table {
 .btn-group-vua {
   display: block;
   background: url("../images/group-vua.png") 0/100% no-repeat;
-  width: 24.1666666667vw;
-  height: 7.0833333333vw;
+  width: 22.6388888889vw;
+  height: 6.9444444444vw;
 }
 
 @media only screen and (min-width: 720px) {
   .btn-group-vua {
-    width: 174px;
-    height: 51px;
+    width: 163px;
+    height: 50px;
   }
 
   .wrapper-sum .slogan1 {
