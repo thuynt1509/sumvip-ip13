@@ -107,12 +107,19 @@ table {
   width: 24.1666666667vw;
   height: 7.0833333333vw;
 }
+.wrapper-sum .icon-support {
+  display: block;
+  background: url("../images/bvd-tach_0020_Group-9-copy.png") 0/100% no-repeat;
+  width: 9.8611111111vw;
+  height: 11.5277777778vw;
+  margin: 1.3888888889vw;
+}
 .wrapper-sum .slogan {
   display: block;
   background: url("../images/slogan.png") 0/100% no-repeat;
   width: 77.3611111111vw;
   height: 13.8888888889vw;
-  margin: 23.6111111111vw auto 0;
+  margin: 11.1111111111vw auto 0;
 }
 .wrapper-sum .title-3 {
   display: block;
@@ -236,10 +243,15 @@ table {
     width: 174px;
     height: 51px;
   }
+  .wrapper-sum .icon-support {
+    width: 71px;
+    height: 83px;
+    margin: 20px;
+  }
   .wrapper-sum .slogan {
     width: 557px;
     height: 100px;
-    margin: 180px auto 10px;
+    margin: 70px auto 10px;
   }
   .wrapper-sum .title-3 {
     width: 618px;
