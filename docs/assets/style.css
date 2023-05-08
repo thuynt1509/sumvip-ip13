@@ -153,7 +153,7 @@ table {
   background: url("../images/btn-dns.png") 0/100% no-repeat;
   width: 55.5555555556vw;
   height: 13.8888888889vw;
-  margin: 1.3888888889vw auto;
+  margin: 0.6944444444vw auto 1.3888888889vw;
 }
 .wrapper-sum .img-gift {
   width: 85%;
@@ -169,7 +169,7 @@ table {
   overflow: auto;
   white-space: nowrap;
   background-color: rgba(0, 0, 0, 0.2117647059);
-  margin: 5px 0 10px;
+  margin: 5px 0;
   border-bottom: 1px solid #275391;
 }
 .wrapper-sum .box-payment .item-payment {
@@ -211,6 +211,9 @@ table {
   text-decoration: underline;
   color: #1e80cb;
   font-weight: 900;
+}
+.wrapper-sum .text-bottom {
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 721px) {
