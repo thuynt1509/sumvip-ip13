@@ -70,7 +70,7 @@ table {
 }
 
 .wrapper-sum {
-  background: url("../images/bg.jpg") top/100% no-repeat #d5a42a;
+  background: url("../images/bg.jpg") top/100% no-repeat #060b11;
   width: 100vw;
   height: auto;
   min-height: 100vh;
@@ -84,11 +84,11 @@ table {
 .wrapper-sum .logo {
   display: block;
   position: absolute;
-  top: 12.5vw;
-  width: 26.6666666667vw;
-  height: 22.6388888889vw;
+  top: 8.3333333333vw;
+  width: 41.6666666667vw;
+  height: 39.7222222222vw;
   left: 50%;
-  margin-left: -13.3333333333vw;
+  margin-left: -20.8333333333vw;
   z-index: 2;
 }
 .wrapper-sum .logo img {
@@ -117,9 +117,9 @@ table {
 .wrapper-sum .slogan {
   display: block;
   background: url("../images/slogan.png") 0/100% no-repeat;
-  width: 69.4444444444vw;
-  height: 12.5vw;
-  margin: 11.1111111111vw auto 0;
+  width: 78.0555555556vw;
+  height: 13.8888888889vw;
+  margin: 20.8333333333vw auto 4.1666666667vw;
 }
 .wrapper-sum .title-3 {
   display: block;
@@ -137,10 +137,10 @@ table {
 }
 .wrapper-sum .btn-download {
   display: block;
-  margin: 0 auto 1.3888888889vw;
+  margin: 2.7777777778vw auto;
   background: url("../images/bvd-tach_0019_Group-1.png") 0/100% no-repeat;
-  width: 62.5vw;
-  height: 12.5vw;
+  width: 76.6666666667vw;
+  height: 20.5555555556vw;
 }
 .wrapper-sum .btn-download.btn-ios {
   background: url("../images/btn-download-ios.png") 0/100% no-repeat;
@@ -151,12 +151,12 @@ table {
 .wrapper-sum .btn-dns {
   display: block;
   background: url("../images/btn-dns.png") 0/100% no-repeat;
-  width: 55.5555555556vw;
-  height: 13.8888888889vw;
-  margin: 0.6944444444vw auto 1.3888888889vw;
+  width: 62.5vw;
+  height: 12.7777777778vw;
+  margin: 2.0833333333vw auto;
 }
 .wrapper-sum .img-gift {
-  width: 85%;
+  width: 90%;
   max-width: 688px;
   display: block;
   margin: 0 auto;
@@ -252,7 +252,7 @@ table {
     margin: 20px;
   }
   .wrapper-sum .slogan {
-    width: 557px;
+    width: 562px;
     height: 100px;
     margin: 70px auto 10px;
   }
@@ -265,14 +265,14 @@ table {
     height: 28px;
   }
   .wrapper-sum .btn-download {
-    margin: 10px auto;
-    width: 519px;
-    height: 97px;
+    margin: 20px auto 10px;
+    width: 552px;
+    height: 148px;
   }
   .wrapper-sum .btn-dns {
-    width: 494px;
-    height: 125px;
-    margin: 0px auto 10px;
+    width: 450px;
+    height: 92px;
+    margin: 10px auto;
   }
   .wrapper-sum .box-payment {
     padding: 27px 10px 17px;
