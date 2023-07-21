@@ -159,7 +159,7 @@ table {
   width: 85%;
   max-width: 688px;
   display: block;
-  margin: 0 auto;
+  margin: -2.0833333333vw auto 0;
 }
 .wrapper-sum .img-gift img {
   width: 100%;
