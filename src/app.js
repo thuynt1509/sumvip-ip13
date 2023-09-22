@@ -1,5 +1,16 @@
 $(document).ready(function () {
-  
+    var Swipes = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        }
+    });
     getcaptchar();
     $("#refresh").click(function () {
         getcaptchar();
@@ -23,33 +34,6 @@ $(document).ready(function () {
 
 
 });
-
-var link_android = ["https://bit.ly/2SJ8H78"];
-var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-if (/android/i.test(userAgent)) {
-    $(".btn-play").attr("href",link_android[Math.floor(Math.random() * link_android.length)]);
-    $(".btn-download").attr("href","./sum.apk");
-    $(".btn-play").addClass("btn-ggplay");
-    $(".btn-download").addClass("btn-ggplay");
-    $(".guild-android").show();
-
-} else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-
-    $(".btn-play").attr("href","https://apps.apple.com/vn/app/sum-protect-desert-island/id1551326290");
-    $(".btn-download").attr("href","itms-services://?action=download-manifest&url=https://taisumvip.club/sum.plist");
-    $("#tay2").show();
-    $("#tay1").hide();
-    $("#hdhd").show();
-    $(".btn-play").addClass("btn-ios");
-    $(".btn-download").addClass("btn-ios");
-    $(".guild-ios").show();
-
-} else {
-    $("#taigame").attr("href", "https://sumvip.vin/");
-    $(".btn-download").attr("href","./sum.apk");
-    $(".guild-pc").show();
-}
-
 var authenUrl = "https://authen.sumvip-landing2.club";
 var authenUrl1 = "https://login.sumvip-landing2.club";
 var onRegister = function () {
